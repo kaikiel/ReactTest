@@ -11,6 +11,7 @@ import {Platform, StyleSheet, Text, Alert, Button, Image, View} from 'react-nati
 
 
 import { GoogleSignin, GoogleSigninButton, statusCodes } from 'react-native-google-signin';
+import { LoginButton, AccessToken, LoginManager } from 'react-native-fbsdk';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -65,7 +66,7 @@ export default class App extends Component<Props> {
         await GoogleSignin.hasPlayServices();
         GoogleSignin.configure();
         const userInfo = await GoogleSignin.signIn();
-        //console.warn(JSON.stringify(userInfo));
+        console.log(JSON.stringify(userInfo));
         //console.warn(userInfo.user.name);
         this.setState({ userInfo, error: null });
       } catch (error) {
@@ -99,13 +100,28 @@ export default class App extends Component<Props> {
           <Text style={{  fontSize: 18, fontWeight: 'bold', marginBottom: 20 }}>
             Welcome {userInfo.user.name}
           </Text>
-          <Text>Your user info: {JSON.stringify(userInfo.user)}</Text>
+          <Text style={{ marginBottom: 20 }}>Your Email: {userInfo.user.email}</Text>
 
           <Button onPress={this._signOut} title="Log out" />
         </View>
       );
     }
 
+    initUser(token) {
+      fetch('https://graph.facebook.com/v2.5/me?fields=email,name,friends&access_token=' + token)
+      .then((response) => response.json())
+      .then((json) => {
+        // Some user object has been set up somewhere, build that user here
+
+        console.warn(json)
+        console.warn(json.name)
+      })
+      .catch(() => {
+        console.log('ERROR GETTING DATA FROM FACEBOOK')
+      })
+    }
+
+    
     renderSignInButton() {
       return (
         <View style={styles.container}>
@@ -114,6 +130,27 @@ export default class App extends Component<Props> {
                               color={GoogleSigninButton.Color.Dark}
                               onPress={this._signIn}
                               />
+
+          <LoginButton
+            onLoginFinished={
+              (error, result) => {
+                if (error) {
+                  console.warn("login has error: " + JSON.stringify(result) + error);
+                } else if (result.isCancelled) {
+                  console.warn("login is cancelled.");
+                } else {
+                  AccessToken.getCurrentAccessToken().then(
+                    (data) => {
+                      console.warn(data.accessToken.toString())
+                      this.initUser(data.accessToken.toString())
+                      console.warn(data)
+                      console.log(data)
+                    }
+                  )
+                }
+              }
+            }
+            onLogoutFinished={() => console.log("logout.")}/>
         </View>
       );
     }
