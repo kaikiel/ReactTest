@@ -1,0 +1,290 @@
+{
+  "project_info": {
+    "project_number": "442772824257",
+    "firebase_url": "https://riverside-bicycle.firebaseio.com",
+    "project_id": "riverside-bicycle",
+    "storage_bucket": "riverside-bicycle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442772824257:android:0a88feadbd7d5d96",
+        "android_client_info": {
+          "package_name": "com.example.kiel.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442772824257-t2ti94rftva4jusqikns1og88ehfer59.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kiel.myapplication",
+            "certificate_hash": "d48358b6f1648a9acb4a88e00c6a8b26165d085e"
+          }
+        },
+        {
+          "client_id": "442772824257-u40s61r37nqhvidqm4esvdjcpc22a5e6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsTHPoCztcynKPw04BjSjl71fbF_iNyPg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442772824257-u40s61r37nqhvidqm4esvdjcpc22a5e6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "442772824257-f98skvmcm6lpcmhdvqj6jkc5rncmnmef.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.riversidebicycle"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442772824257:android:15fa8e74d7c85d74",
+        "android_client_info": {
+          "package_name": "com.flutter.firebasetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442772824257-vnomb5e5t51seurgrirlhcqvfg4mqnu9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flutter.firebasetest",
+            "certificate_hash": "d48358b6f1648a9acb4a88e00c6a8b26165d085e"
+          }
+        },
+        {
+          "client_id": "442772824257-406msuo23dattb52v4hlmgjhjkt3e1ma.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flutter.firebasetest",
+            "certificate_hash": "7b9621d3c0b9f6db5a66a8dd30dcfcaa67a6f938"
+          }
+        },
+        {
+          "client_id": "442772824257-qk01bdgisrlar1havfhsiru1761ecp05.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flutter.firebasetest",
+            "certificate_hash": "64d9e63157a3cd6a3aa41df26d5d513cde1954b7"
+          }
+        },
+        {
+          "client_id": "442772824257-u40s61r37nqhvidqm4esvdjcpc22a5e6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsTHPoCztcynKPw04BjSjl71fbF_iNyPg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442772824257-u40s61r37nqhvidqm4esvdjcpc22a5e6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "442772824257-f98skvmcm6lpcmhdvqj6jkc5rncmnmef.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.riversidebicycle"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442772824257:android:43469db1cc66363b",
+        "android_client_info": {
+          "package_name": "com.mingtak.riversidebicycle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442772824257-vibvmnkg7p5jjjm2upeuti13cfnj84lk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mingtak.riversidebicycle",
+            "certificate_hash": "64d9e63157a3cd6a3aa41df26d5d513cde1954b7"
+          }
+        },
+        {
+          "client_id": "442772824257-cd0ekdk4epikiijm3hvuo408uub2626n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mingtak.riversidebicycle",
+            "certificate_hash": "7b9621d3c0b9f6db5a66a8dd30dcfcaa67a6f938"
+          }
+        },
+        {
+          "client_id": "442772824257-u40s61r37nqhvidqm4esvdjcpc22a5e6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsTHPoCztcynKPw04BjSjl71fbF_iNyPg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442772824257-u40s61r37nqhvidqm4esvdjcpc22a5e6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "442772824257-f98skvmcm6lpcmhdvqj6jkc5rncmnmef.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.riversidebicycle"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442772824257:android:2c152ce9b87d0e42",
+        "android_client_info": {
+          "package_name": "com.riversidebicycle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442772824257-j6j7kn4pus7538b52f8kiv7nkva18rm9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.riversidebicycle",
+            "certificate_hash": "7b9621d3c0b9f6db5a66a8dd30dcfcaa67a6f938"
+          }
+        },
+        {
+          "client_id": "442772824257-u40s61r37nqhvidqm4esvdjcpc22a5e6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsTHPoCztcynKPw04BjSjl71fbF_iNyPg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442772824257-u40s61r37nqhvidqm4esvdjcpc22a5e6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "442772824257-f98skvmcm6lpcmhdvqj6jkc5rncmnmef.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.riversidebicycle"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442772824257:android:645513aecbf91738",
+        "android_client_info": {
+          "package_name": "com.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442772824257-emeeapg8mld7ppbqqetpraeq3trnq881.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.test",
+            "certificate_hash": "7b9621d3c0b9f6db5a66a8dd30dcfcaa67a6f938"
+          }
+        },
+        {
+          "client_id": "442772824257-u40s61r37nqhvidqm4esvdjcpc22a5e6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsTHPoCztcynKPw04BjSjl71fbF_iNyPg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442772824257-u40s61r37nqhvidqm4esvdjcpc22a5e6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "442772824257-f98skvmcm6lpcmhdvqj6jkc5rncmnmef.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.riversidebicycle"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
